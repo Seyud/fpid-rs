@@ -20,6 +20,6 @@ fpid-rs 是一个用于快速判断程序是否在运行中的命令行工具，
 
 本项目为对原项目 fpid（C 实现版）的 Rust 重写，接口与行为尽量保持一致，感谢原作者的工作与启发：
 
-- 原项目仓库（C 版）：https://gitee.com/sutoliu/fpid
+- [原项目仓库（C 版）](https://gitee.com/sutoliu/fpid)
 
 如本项目对原行为有优化或差异，会在变更说明中注明。
