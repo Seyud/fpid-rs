@@ -1,0 +1,17 @@
+[paths]
+# 对于本地构建（Windows 主机），不需要 NDK/LLVM（仅当本地构建时）；若进行 Android 交叉编译，请正确配置以下路径。
+
+# Android NDK 根目录（如需交叉编译）
+android_ndk_home = "D:/android-ndk"
+
+# LLVM 工具链（如需交叉编译或 clang 等工具）
+llvm_path = "D:/LLVM"
+
+# 目标三元组：Android 64位构建
+target = "aarch64-linux-android"
+
+# 生成的二进制名称，需与 Cargo 包名一致
+binary_name = "fpid-rs"
+
+# 产物输出目录
+output_dir = "output"

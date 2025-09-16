@@ -1,0 +1,12 @@
+
+# Rust
+target/
+.cargo/
+
+# Python
+__pycache__/
+
+# Output directory
+output/
+
+

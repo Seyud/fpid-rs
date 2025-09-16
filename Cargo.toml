@@ -1,0 +1,18 @@
+[package]
+name = "fpid-rs"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-only"
+description = "fpid (find pid): fast process id lookup. Rust rewrite of the C version."
+readme = "README.md"
+repository = "https://github.com/Seyud/fpid-rs"
+homepage = "https://github.com/Seyud/fpid-rs"
+documentation = "https://github.com/Seyud/fpid-rs#readme"
+keywords = ["pid", "process", "procfs", "cli", "linux"]
+categories = ["command-line-utilities", "os::unix-apis"]
+
+[dependencies]
+
+[package.metadata.upstream]
+name = "fpid"
+repository = "https://gitee.com/sutoliu/fpid"
